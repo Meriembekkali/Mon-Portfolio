@@ -23,12 +23,12 @@
         }
 
         header {
-            padding: 50px 0 35px 0;
+            padding: 40px 0 30px 0;
         }
 
         header h1 {
             font-size: 48px;
-            margin-bottom: 10px;
+            margin: 0 0 8px 0;
             font-weight: 600;
         }
 
@@ -36,22 +36,24 @@
             font-size: 20px;
             font-weight: 400;
             color: #666;
-            margin-top: 0;
+            margin: 0;
         }
 
         .intro {
             max-width: 100%;
             font-size: 18px;
-            margin-top: 20px;
+            margin-top: 18px;
+            margin-bottom: 0;
         }
 
         section {
-            margin-bottom: 45px;
+            margin-bottom: 30px;
         }
 
         section h2 {
             font-size: 30px;
-            margin-bottom: 30px;
+            margin-top: 0;
+            margin-bottom: 15px;
             font-weight: 600;
         }
 
@@ -91,6 +93,7 @@
         .card p {
             font-size: 15px;
             color: #555;
+            margin-top: 0;
         }
 
         .card a {
@@ -118,17 +121,23 @@
         .about {
             max-width: 100%;
             font-size: 17px;
+            margin-top: 0;
+            margin-bottom: 0;
         }
 
         .contact {
             background-color: #1f1f1f;
             color: white;
-            padding: 50px;
+            padding: 40px;
             border-radius: 16px;
         }
 
         .contact h2 {
             margin-top: 0;
+        }
+
+        .contact p {
+            margin: 8px 0;
         }
 
         .contact a {
@@ -142,22 +151,47 @@
 
         footer {
             text-align: center;
-            padding: 30px 0;
+            padding: 25px 0;
             color: #888;
             font-size: 13px;
         }
 
         @media (max-width: 600px) {
-            header h1 {
-                font-size: 36px;
-            }
-
             .container {
                 padding: 0 20px;
             }
 
+            header {
+                padding: 30px 0 25px 0;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            .intro {
+                font-size: 16px;
+            }
+
+            section {
+                margin-bottom: 25px;
+            }
+
+            section h2 {
+                font-size: 26px;
+                margin-bottom: 12px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 22px;
+            }
+
             .contact {
-                padding: 30px;
+                padding: 28px;
             }
         }
     </style>
@@ -206,16 +240,14 @@
                 </p>
 
                 <a href="Projet_MarchesFinanciers_Markov.pdf"
-   target="_blank"
-   rel="noopener noreferrer">
-    View Project →
-</a>
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Project →
+                </a>
             </div>
-
 
         </div>
     </section>
-
 
     <section>
         <h2>Current Projects</h2>
@@ -233,14 +265,13 @@
                 </p>
 
                 <a href="Projet_Recherche_fusions-acquisitions.pdf"
-   target="_blank"
-   rel="noopener noreferrer">
-    View Project →
-</a>
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Project →
+                </a>
 
                 <div class="status">In Progress</div>
             </div>
-
 
             <div class="card">
                 <div class="category">Stochastic Modeling</div>
@@ -257,7 +288,6 @@
 
         </div>
     </section>
-
 
     <section class="contact">
         <h2>Contact</h2>
@@ -278,7 +308,6 @@
             </a>
         </p>
     </section>
-
 
     <footer>
         © Meriem Bekkali Hassani — Analytical Projects
