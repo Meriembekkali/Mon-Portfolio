@@ -370,7 +370,7 @@
             section { padding: 48px 0; }
             .featured { padding: 32px 26px; border-radius: 22px 22px 22px 4px; }
             .work { grid-template-columns: 1fr auto; gap: 14px 18px; }
-            .num { display: none; }
+            .num { grid-column: 1 / -1; width: 32px; height: 32px; font-size: 13px; }
             .work h3 { font-size: 19px; }
             .about { grid-template-columns: 1fr; gap: 18px; }
         }
@@ -443,7 +443,7 @@
         <ol class="works">
 
             <li class="work">
-                <span class="num">02</span>
+                <span class="num">01</span>
                 <div>
                     <p class="work-meta">Financial Analysis · Report · in English</p>
                     <h3>Safran: Financial Analysis Report</h3>
@@ -462,7 +462,7 @@
             </li>
 
             <li class="work">
-                <span class="num">03</span>
+                <span class="num">02</span>
                 <div>
                     <p class="work-meta">Quantitative Methods · Project · in French</p>
                     <h3>Market Fluctuations and Markov Chains</h3>
@@ -478,7 +478,7 @@
             </li>
 
             <li class="work">
-                <span class="num">04</span>
+                <span class="num">03</span>
                 <div>
                     <p class="work-meta">Accounting Standards · Briefing note · in French</p>
                     <h3>IFRS 18: A New Reading of the Income Statement</h3>
@@ -492,7 +492,7 @@
                         <span class="tag">Adjusted measures</span>
                     </div>
                 </div>
-                <!-- Upload the PDF to the GitHub repo under this name -->
+                <!-- PDF in the GitHub repo -->
                 <a class="arrow" href="Lecturecritique_IFRS18.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read the IFRS 18 note">→</a>
             </li>
 
